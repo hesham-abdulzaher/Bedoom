@@ -1,0 +1,22 @@
+#rig-form
+  width: 350px
+  background-color: #fff
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+  margin: 0 auto
+  padding: 20px
+  border-radius: 2px
+  position: relative
+  transition: 1s ease
+  .divforinp
+    &:first-of-type
+      label
+        position: relative
+        &::after
+          content: 'Unique'
+          position: absolute
+          top: 50%
+          transform: translateY(-50%)
+          left: 110%
+          font-size: 13px
+          color: #888
+          // font-weight: bold
